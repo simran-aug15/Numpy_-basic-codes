@@ -1,7 +1,7 @@
 """np.delete(array,index,axis=None,flatten array)"""
 import numpy as np
 arr_1d=np.array([10,20,30,40,50])
-print(arr)
+print(arr_1d)
 new_arr=np.delete(arr_1d,0)
 print("element in row is")
 print(new_arr)
