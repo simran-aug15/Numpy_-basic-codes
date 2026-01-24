@@ -1,0 +1,8 @@
+"""np.split()=divide in equal parts
+   np.hsplit()=Horizontal split
+   np.vsplit()=vertical split
+"""
+
+import numpy as np
+arr=np.array([10,20,30,40,50,60])
+print(np.split(arr,2))
